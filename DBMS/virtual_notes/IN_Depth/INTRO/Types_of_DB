@@ -1,0 +1,152 @@
+## 🗂️ Types of Databases
+
+There are **different types of databases**, each designed to solve specific problems.  
+Let’s go through the most common ones used in the industry.
+
+---
+
+## 🧱 1. Relational Databases (SQL Databases)
+
+This is the **most famous and widely used** type of database.
+
+### 🔹 Key Characteristics
+- Data is stored in **tables**
+- Tables consist of:
+  - **Rows** (records)
+  - **Columns** (attributes)
+- Tables are connected using **relationships**
+
+➡️ Because of these relationships, they are called **relational databases**.
+
+### 🧠 Real-World Analogy
+Think of it like **spreadsheets**, but:
+- Much more powerful
+- Highly structured
+- Designed for large-scale systems
+
+📌 When people say *“database”*, they usually mean a **relational database**.
+
+### 🧪 Examples
+- :contentReference[oaicite:0]{index=0}
+- :contentReference[oaicite:1]{index=1}
+- :contentReference[oaicite:2]{index=2}
+
+---
+
+## 🔑 2. Key-Value Databases
+
+In this type of database, data is stored as **key–value pairs**.
+
+### 🔹 Structure
+- **Key** → Unique identifier
+- **Value** → Associated data
+
+### 🧠 Analogy
+Think of a **dictionary**:
+- Word → Key
+- Definition → Value
+
+### 🧪 Examples
+- :contentReference[oaicite:3]{index=3}
+- :contentReference[oaicite:4]{index=4}
+
+---
+
+## 🧮 3. Column-Based Databases
+
+Instead of grouping data by **rows**, these databases group data by **columns**.
+
+### 🔹 Why Column-Based?
+- Optimized for:
+  - Searching
+  - Analytics
+  - Large-scale data processing
+- Excellent for **huge datasets**
+
+📌 Mainly used in **data warehousing and analytics**.
+
+### 🧪 Examples
+- :contentReference[oaicite:5]{index=5}
+- :contentReference[oaicite:6]{index=6}
+
+---
+
+## 🕸️ 4. Graph Databases
+
+Graph databases focus on **relationships between data points**.
+
+### 🔹 Core Concepts
+- Nodes (objects)
+- Edges (relationships)
+- Relationships are the **main priority**
+
+📌 Best used when connections matter more than raw data.
+
+### 🧪 Example
+- :contentReference[oaicite:7]{index=7}
+
+---
+
+## 📄 5. Document Databases
+
+Data is stored as **entire documents**.
+
+### 🔹 Key Features
+- Schema is flexible
+- Structure is less important
+- Focus is on storing complete objects in one document
+
+📌 Best for:
+- Semi-structured data
+- Rapid development
+- JSON-like data formats
+
+### 🧪 Example
+- :contentReference[oaicite:8]{index=8}
+
+---
+
+## 🧠 SQL vs NoSQL Databases
+
+We can group databases into two main categories:
+
+### ✅ SQL Databases
+- Relational databases
+- Structured schema
+- Use **SQL** language
+
+### ❌ NoSQL Databases
+Includes:
+- Key-Value
+- Column-Based
+- Graph
+- Document databases
+
+➡️ These databases **do not rely on traditional SQL** and are optimized for flexibility and scalability.
+
+---
+
+## 🎯 Course Focus
+
+For this course:
+- We will focus on **SQL Relational Databases**
+- Because they are:
+  - The most widely used in companies
+  - Fundamental for data roles
+
+📌 Primary focus:
+- **:contentReference[oaicite:9]{index=9}**
+
+---
+
+## ✅ Final Summary
+
+| Database Type | Focus |
+|--------------|------|
+| Relational (SQL) | Structured data & relationships |
+| Key-Value | Fast lookups |
+| Column-Based | Analytics & big data |
+| Graph | Relationships |
+| Document | Flexible schemas |
+
+Understanding these database types helps you **choose the right tool for the right problem**.
